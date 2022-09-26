@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.background{
+background-image: url("\images (7).jpeg"); 
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+
+  
+}
+.main{
+   
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1.2rem);
+    height: 80%;
+    width: 30%;
+    border-radius: 20px;   
+    padding: 1.2rem;
+    position: relative;
+}
+
+.mains{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+.heading{
+    text-align: center;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.8rem;
+}
+.invoice{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+label{
+    font-size: 22px;
+}
+input{
+    margin: 10px 0;
+    height: 30px;
+    width: 95%;
+    border-radius: 7px;
+    
+}
+button{
+    background-color:gray;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
